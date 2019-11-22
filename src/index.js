@@ -1,16 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import "./index.css"
 
-export function App() {
-    return (
-       <ul>
-           <li>dsdfs</li>
-           <li>asfsadf</li>
-           <li>sadfasdf</li>
-       </ul>
-    )
-}
-
+import {App} from './components';
 
 ReactDOM.render(<App />, document.getElementById('root'));
